@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="84695d275720446fb23586490e7917c3" Name="Diagram1">
+        <EntityTypeShape EntityType="ecotrash_dbModel.DetallePedido" Width="1.5" PointX="5.25" PointY="5.375" />
+        <EntityTypeShape EntityType="ecotrash_dbModel.Pedido" Width="1.5" PointX="3" PointY="5.25" />
+        <EntityTypeShape EntityType="ecotrash_dbModel.Producto" Width="1.5" PointX="3" PointY="9.625" />
+        <EntityTypeShape EntityType="ecotrash_dbModel.TipoPedido" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="ecotrash_dbModel.TipoProducto" Width="1.5" PointX="0.75" PointY="9.625" />
+        <EntityTypeShape EntityType="ecotrash_dbModel.Transporte" Width="1.5" PointX="0.75" PointY="6.875" />
+        <EntityTypeShape EntityType="ecotrash_dbModel.Usuario" Width="1.5" PointX="0.75" PointY="2.25" />
+        <EntityTypeShape EntityType="ecotrash_dbModel.Usuario_Transporte" Width="1.5" PointX="3" PointY="1.875" />
+        <AssociationConnector Association="ecotrash_dbModel.FK__DetallePe__idPro__5812160E" />
+        <AssociationConnector Association="ecotrash_dbModel.FK_pedidoDetalle" />
+        <AssociationConnector Association="ecotrash_dbModel.fk_usuario_1" />
+        <AssociationConnector Association="ecotrash_dbModel.fk_usuario_2" />
+        <AssociationConnector Association="ecotrash_dbModel.FK__Producto__tipoPr__5535A963" />
+        <AssociationConnector Association="ecotrash_dbModel.FK__Usuario_T__trans__5EBF139D" />
+        <AssociationConnector Association="ecotrash_dbModel.FK__Usuario_T__usuar__5DCAEF64" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
